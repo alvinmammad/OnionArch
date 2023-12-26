@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{24DFA0A1-DFC6-4DA5-89ED-95DAF0B5B3C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4669313D-33CC-45B9-B204-AC03F2E5E04B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CCD2A745-595B-484F-868E-D2DE0C08BBBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Application", "Core\OnionArch.Application\OnionArch.Application.csproj", "{AC4BB4C8-2606-476B-9182-CA874E18BAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Domain", "Core\OnionArch.Domain\OnionArch.Domain.csproj", "{6AA29321-E1FD-4E9C-8566-C9D88855C5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Infrastructure", "Infrastructure\OnionArch.Infrastructure\OnionArch.Infrastructure.csproj", "{0D9EF663-1083-43F8-BFF1-26E5815CED43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Persistence", "Infrastructure\OnionArch.Persistence\OnionArch.Persistence.csproj", "{640C7B55-2468-4F57-8067-A794A5AA2D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.API", "Presentation\OnionArch.API\OnionArch.API.csproj", "{AA6CFC96-865D-4F9E-9486-F54957C528E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4BB4C8-2606-476B-9182-CA874E18BAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4BB4C8-2606-476B-9182-CA874E18BAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4BB4C8-2606-476B-9182-CA874E18BAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4BB4C8-2606-476B-9182-CA874E18BAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA29321-E1FD-4E9C-8566-C9D88855C5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA29321-E1FD-4E9C-8566-C9D88855C5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA29321-E1FD-4E9C-8566-C9D88855C5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA29321-E1FD-4E9C-8566-C9D88855C5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9EF663-1083-43F8-BFF1-26E5815CED43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9EF663-1083-43F8-BFF1-26E5815CED43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9EF663-1083-43F8-BFF1-26E5815CED43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9EF663-1083-43F8-BFF1-26E5815CED43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640C7B55-2468-4F57-8067-A794A5AA2D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640C7B55-2468-4F57-8067-A794A5AA2D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640C7B55-2468-4F57-8067-A794A5AA2D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640C7B55-2468-4F57-8067-A794A5AA2D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6CFC96-865D-4F9E-9486-F54957C528E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6CFC96-865D-4F9E-9486-F54957C528E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6CFC96-865D-4F9E-9486-F54957C528E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6CFC96-865D-4F9E-9486-F54957C528E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC4BB4C8-2606-476B-9182-CA874E18BAEF} = {24DFA0A1-DFC6-4DA5-89ED-95DAF0B5B3C3}
+		{6AA29321-E1FD-4E9C-8566-C9D88855C5A7} = {24DFA0A1-DFC6-4DA5-89ED-95DAF0B5B3C3}
+		{0D9EF663-1083-43F8-BFF1-26E5815CED43} = {4669313D-33CC-45B9-B204-AC03F2E5E04B}
+		{640C7B55-2468-4F57-8067-A794A5AA2D0E} = {4669313D-33CC-45B9-B204-AC03F2E5E04B}
+		{AA6CFC96-865D-4F9E-9486-F54957C528E4} = {CCD2A745-595B-484F-868E-D2DE0C08BBBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB853A09-5788-4913-9E65-DFB434E4E562}
+	EndGlobalSection
+EndGlobal
